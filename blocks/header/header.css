@@ -1,8 +1,58 @@
 .header{
-position: absolute;
-width: 176px;
-height: 52px;
-left: 48px;
-top: 28px;
-background: #FFFFFF;
+    display: grid;
+    grid-template-columns: 176px 1fr 30px 29px;
+    gap: 18px;
+    margin: 0 auto;
+    max-width: 1184px;
+    height: 52px;
+    border: 3px solid white;
+}
+
+
+
+
+@media screen and (max-width: 1024px){
+    .page{
+        width: 1024px;
+    }
+    .header{
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page{
+        width: 768px;
+    }
+    .header{
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .page{
+        width: 320px;
+        padding-top: 16px;
+    }
+    .header{
+        width: calc(100% - 32px);
+        height: 42px;
+    }
+    
+}
+
+@media screen and (max-width: 288px){
+    .header__logo{
+        width: 142px;
+    }
+    .header__lang-link{
+        width: 22px;
+        height: 20px;
+        margin: 14px 0 8px;
+    }
+    .header__lang-link-En{
+        width: 22px;
+        height: 20px;
+        margin: 14px 0 8px;
+    }
 }
