@@ -1,0 +1,11 @@
+.place{
+    display: grid;
+    grid-template-columns: 460px 456px;
+    grid-template-rows: 152px 145px; 
+    grid-auto-flow: column dense;
+    row-gap: 48px;
+    column-gap: 40px;
+    max-width: 100%;
+    height: 660px;
+    border: 1px solid rgb(255, 255, 255);
+}

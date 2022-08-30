@@ -1,0 +1,12 @@
+.place__paragrath{
+    margin-bottom: 26px;
+    width: 484px;
+    height: 145px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    border: 1px solid rgb(0, 242, 93);
+}
