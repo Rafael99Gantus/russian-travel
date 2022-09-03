@@ -1,7 +1,6 @@
 .place__paragrath{
-    margin-bottom: 26px;
     width: 484px;
-    height: 145px;
+    max-height: 460px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -9,4 +8,31 @@
     line-height: 163%;
     color: #FFFFFF;
     border: 1px solid rgb(0, 242, 93);
+}
+
+.place__paragrath:nth-child(2){
+    margin-top: 26px;
+}
+
+@media screen and (max-width: 1024px){
+    .place__paragrath{
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .place__paragrath{
+        width: 352px;
+        font-size: 16px;
+    }
+    .place__paragrath:nth-child(2){
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place__paragrath{
+        width: 288px;
+        margin: 0 16px 0 16px;
+    }
 }
