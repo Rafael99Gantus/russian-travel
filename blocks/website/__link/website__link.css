@@ -11,3 +11,21 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1024px) {
+    .website__link {
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .website__link {
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .website__link {
+        width: 288px;
+    }
+}
