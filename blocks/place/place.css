@@ -1,7 +1,7 @@
 .place{
     display: grid;
     grid-template-columns: 460px 484px;
-    grid-template-rows: 76px minmax(340px 545px); 
+    grid-template-rows: 76px minmax(340px 545px);
     grid-auto-flow: row dense;
     row-gap: 48px;
     column-gap: 40px;
