@@ -11,3 +11,25 @@
     color: #FFFFFF;
     /* border: 0.5px solid red; */
 }
+
+@media screen and (max-width: 1024px){
+    .header{
+        width: calc(100% - 96px);
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        width: calc(100% - 48px);
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header{
+        width: calc(100% - 32px);
+        height: 42px;
+        margin-bottom: 48px;
+    }
+}
