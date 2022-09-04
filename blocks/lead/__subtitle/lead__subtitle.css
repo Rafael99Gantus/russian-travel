@@ -9,7 +9,7 @@
     line-height: 1.2;
     text-align: center;
     color: #FFFFFF;
-    border: solid 1px rgb(16, 182, 74);
+    /* border: solid 1px rgb(16, 182, 74); */
 }
 
 @media screen and (max-width: 1024px) {

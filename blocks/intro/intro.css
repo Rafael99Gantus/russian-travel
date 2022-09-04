@@ -3,7 +3,7 @@
     margin-left: 148px;
     width: 690px;
     height: 429px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 1024px) {

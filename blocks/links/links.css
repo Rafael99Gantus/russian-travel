@@ -1,0 +1,10 @@
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+    .links {
+        flex-direction: column;
+    }
+}

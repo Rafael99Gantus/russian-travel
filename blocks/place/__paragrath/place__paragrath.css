@@ -7,7 +7,7 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    border: 1px solid rgb(0, 242, 93);
+    /* border: 1px solid rgb(0, 242, 93); */
 }
 
 .place__paragrath:nth-child(2) {

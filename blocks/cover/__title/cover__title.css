@@ -11,7 +11,7 @@
     text-align: center;
     color: #FFFFFF;
     z-index: 2;
-    border: 1px solid rgb(216, 14, 14);
+    /* border: 1px solid rgb(216, 14, 14); */
 }
 
 @media screen and (max-width: 320px) {
