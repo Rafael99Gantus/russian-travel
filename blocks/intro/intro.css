@@ -1,4 +1,4 @@
-.intro{
+.intro {
     margin-top: 92px;
     margin-left: 148px;
     width: 690px;
@@ -6,21 +6,21 @@
     border: 1px solid red;
 }
 
-@media screen and (max-width: 1024px){
-    .intro{
+@media screen and (max-width: 1024px) {
+    .intro {
         margin-left: 48px;
     }
 }
 
-@media screen and (max-width: 768px){
-    .intro{
+@media screen and (max-width: 768px) {
+    .intro {
         width: calc(100% - 48px);
         margin: 110px auto 0;
     }
 }
 
-@media screen and (max-width: 320px){
-    .intro{
+@media screen and (max-width: 320px) {
+    .intro {
         width: calc(100% - 32px);
         height: 754px;
         margin-top: 86px;

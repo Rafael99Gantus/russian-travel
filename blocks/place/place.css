@@ -1,4 +1,4 @@
-.place{
+.place {
     display: grid;
     grid-template-columns: 460px 484px;
     grid-template-rows: 76px minmax(340px 545px);
@@ -11,36 +11,38 @@
     /* border: 3px solid rgb(255, 255, 255); */
 }
 
-.place:first-child{
-    grid-template-rows: 152px minmax(340px 545px); 
+.place:first-child {
+    grid-template-rows: 152px minmax(340px 545px);
 }
 
-.place:nth-child(4){
-    grid-template-rows: 152px minmax(340px 545px); 
+.place:nth-child(4) {
+    grid-template-rows: 152px minmax(340px 545px);
 }
 
-.place:last-child{
+.place:last-child {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px){
-    .place{
+@media screen and (max-width: 1024px) {
+    .place {
         max-height: 640px;
         grid-template-columns: 440px 456px;
         grid-template-rows: 76px minmax(340px 545px);
         row-gap: 48px;
         column-gap: 32px;
     }
-    .place:first-child{
-        grid-template-rows: 152px minmax(340px 545px); 
+
+    .place:first-child {
+        grid-template-rows: 152px minmax(340px 545px);
     }
-    .place:nth-child(4){
-        grid-template-rows: 152px minmax(340px 545px); 
+
+    .place:nth-child(4) {
+        grid-template-rows: 152px minmax(340px 545px);
     }
 }
 
-@media screen and (max-width: 768px){
-    .place{
+@media screen and (max-width: 768px) {
+    .place {
         max-height: 581px;
         margin-bottom: 73px;
         grid-template-columns: 340px 352px;
@@ -48,16 +50,18 @@
         row-gap: 48px;
         column-gap: 28px;
     }
-    .place:first-child{
-        grid-template-rows: 92px minmax(340px 545px); 
+
+    .place:first-child {
+        grid-template-rows: 92px minmax(340px 545px);
     }
-    .place:nth-child(4){
-        grid-template-rows: 92px minmax(340px 545px); 
+
+    .place:nth-child(4) {
+        grid-template-rows: 92px minmax(340px 545px);
     }
 }
 
-@media screen and (max-width: 320px){
-    .place{
+@media screen and (max-width: 320px) {
+    .place {
         max-height: 1042px;
         margin-bottom: 50px;
         grid-template-columns: 320px;
@@ -65,10 +69,12 @@
         row-gap: 32px;
         column-gap: 0;
     }
-    .place:first-child{
-        grid-template-rows: 35px 46px 320px minmax(340px 545px); 
+
+    .place:first-child {
+        grid-template-rows: 35px 46px 320px minmax(340px 545px);
     }
-    .place:nth-child(4){
-        grid-template-rows: 35px 46px 320px minmax(340px 545px); 
+
+    .place:nth-child(4) {
+        grid-template-rows: 35px 46px 320px minmax(340px 545px);
     }
 }

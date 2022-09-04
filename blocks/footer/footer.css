@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: grid;
     grid-template-columns: 50px 57px 94px 86px 106px 497px 140px;
     grid-template-rows: 18px;
@@ -9,20 +9,20 @@
     /* border: 1px solid white; */
 }
 
-@media screen and (max-width: 1024px){
-    .footer{
+@media screen and (max-width: 1024px) {
+    .footer {
         grid-template-columns: 50px 57px 94px 86px 106px 277px 140px;
     }
 }
 
-@media screen and (max-width: 768px){
-    .footer{
+@media screen and (max-width: 768px) {
+    .footer {
         grid-template-columns: 50px 57px 94px 86px 106px 69px 140px;
     }
 }
 
-@media screen and (max-width: 320px){
-    .footer{
+@media screen and (max-width: 320px) {
+    .footer {
         width: 186px;
         height: 310px;
         margin: 0 118px 0 16px;

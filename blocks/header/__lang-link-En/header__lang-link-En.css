@@ -1,4 +1,4 @@
-.header__lang-link-En{
+.header__lang-link-En {
     text-decoration: none;
     grid-column: 4;
     margin: 18px 0 6px;
@@ -13,8 +13,8 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px){
-    .header__lang-link-En{
+@media screen and (max-width: 320px) {
+    .header__lang-link-En {
         width: 22px;
         height: 20px;
         margin: 14px 0 8px;

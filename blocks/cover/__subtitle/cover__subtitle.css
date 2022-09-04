@@ -1,4 +1,4 @@
-.cover__subtitle{
+.cover__subtitle {
     width: 360px;
     height: 66px;
     font-family: 'Inter';
@@ -11,8 +11,8 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 320px){
-    .cover__subtitle{
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
         width: 288px;
         height: 48px;
         margin-bottom: 48px;

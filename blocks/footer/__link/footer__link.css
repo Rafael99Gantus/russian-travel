@@ -1,4 +1,4 @@
-.footer__link{
+.footer__link {
     width: 106px;
     height: 18px;
     text-decoration: none;
@@ -10,22 +10,22 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px){
-    .header{
+@media screen and (max-width: 1024px) {
+    .header {
         width: calc(100% - 96px);
         margin-bottom: 48px;
     }
 }
 
-@media screen and (max-width: 768px){
-    .header{
+@media screen and (max-width: 768px) {
+    .header {
         width: calc(100% - 48px);
         margin-bottom: 48px;
     }
 }
 
-@media screen and (max-width: 320px){
-    .header{
+@media screen and (max-width: 320px) {
+    .header {
         width: calc(100% - 32px);
         height: 42px;
         margin-bottom: 48px;

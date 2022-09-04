@@ -1,4 +1,4 @@
-.place__website{
+.place__website {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,22 +11,22 @@
     border: 1px solid rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 1024px){
-    .place__website{
+@media screen and (max-width: 1024px) {
+    .place__website {
         width: 456px;
         margin: 0;
     }
 }
 
-@media screen and (max-width: 768px){
-    .place__website{
+@media screen and (max-width: 768px) {
+    .place__website {
         width: 352px;
         margin: 0;
     }
 }
 
-@media screen and (max-width: 320px){
-    .place__website{
+@media screen and (max-width: 320px) {
+    .place__website {
         width: 288px;
         margin: 0 16px 0 16px;
         grid-column: 1;
