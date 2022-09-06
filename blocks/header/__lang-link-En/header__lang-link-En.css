@@ -2,8 +2,8 @@
     text-decoration: none;
     grid-column: 4;
     margin: 18px 0 6px;
-    width: 29px;
-    height: 28px;
+    max-width: 29px;
+    max-height: 28px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -15,8 +15,8 @@
 
 @media screen and (max-width: 320px) {
     .header__lang-link-En {
-        width: 22px;
-        height: 20px;
+        max-width: 22px;
+        max-height: 20px;
         margin: 14px 0 8px;
         font-family: 'Inter';
         font-style: normal;

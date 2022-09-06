@@ -1,6 +1,6 @@
 .footer__copyright {
     grid-column: 7;
-    height: 16px;
+    max-height: 16px;
     margin: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -11,16 +11,16 @@
     /* border: 0.5px solid red; */
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .header {
-        width: calc(100% - 96px);
+        max-width: calc(100% - 96px);
         margin-bottom: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        width: calc(100% - 48px);
+        max-width: calc(100% - 48px);
         margin-bottom: 48px;
     }
 }
@@ -31,4 +31,4 @@
         height: 42px;
         margin-bottom: 48px;
     }
-}
+} */
