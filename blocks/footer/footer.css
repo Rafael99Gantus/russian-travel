@@ -17,7 +17,7 @@
     .footer {
         flex-direction: column;
         width: 186px;
-        height: 310px;
+        max-height: 310px;
         margin: 0 118px 0 16px;
     }
 }

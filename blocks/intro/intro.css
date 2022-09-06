@@ -1,8 +1,8 @@
 .intro {
     margin-top: 92px;
     margin-left: 148px;
-    width: 690px;
-    height: 429px;
+    max-width: 690px;
+    max-height: 429px;
     /* border: 1px solid red; */
 }
 
@@ -14,15 +14,15 @@
 
 @media screen and (max-width: 768px) {
     .intro {
-        width: calc(100% - 48px);
+        max-width: calc(100% - 48px);
         margin: 110px auto 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
-        width: calc(100% - 32px);
-        height: 754px;
+        max-width: calc(100% - 32px);
+        max-height: 754px;
         margin-top: 86px;
     }
 }

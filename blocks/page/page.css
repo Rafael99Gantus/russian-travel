@@ -1,5 +1,5 @@
 .page {
-    width: 1280px;
+    max-width: 1280px;
     height: 6823px;
     margin: 0 auto 0;
     padding-top: 28px;
@@ -9,22 +9,22 @@
 
 @media screen and (max-width: 1024px) {
     .page {
-        width: 1024px;
+        max-width: 1024px;
         height: 6843px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .page {
-        width: 768px;
+        max-width: 768px;
         height: 6803px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .page {
-        width: 320px;
-        height: 9971px;
+        max-width: 320px;
+        height: 9943px;
         padding-top: 16px;
     }
 }

@@ -2,18 +2,39 @@
     display: grid;
     grid-template-columns: repeat(4, 284px);
     grid-template-rows: repeat(3, 213px);
+    justify-content: center;
     gap: 16px;
-    width: 1184px;
-    height: 671px;
+    max-width: 1184px;
+    max-height: 671px;
     margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1184px) {
+    .photo-grid {
+        max-width: 80%;
+        max-height: 942px;
+        grid-template-columns: repeat(3, minmax(250px, 300px));
+        grid-template-rows: repeat(4, 1fr);
+        gap: 14px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        width: calc(100% - 96px);
-        height: 942px;
-        grid-template-columns: repeat(3, 300px);
-        grid-template-rows: repeat(4, 225px);
+        max-width: calc(100% - 96px);
+        max-height: 942px;
+        grid-template-columns: repeat(3, minmax(250px, 300px));
+        grid-template-rows: repeat(4, max-content);
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        max-width: calc(100% - 96px);
+        max-height: 942px;
+        grid-template-columns: repeat(3, minmax(150px, 350px));
+        grid-template-rows: repeat(4, max-content);
         gap: 14px;
     }
 }
@@ -21,10 +42,10 @@
 @media screen and (max-width: 768px) {
     .photo-grid {
         margin: 88px auto 0;
-        width: calc(100% - 48px);
-        height: 1664px;
-        grid-template-columns: repeat(2, 352px);
-        grid-template-rows: repeat(6, 264px);
+        max-width: calc(100% - 48px);
+        max-height: 1664px;
+        grid-template-columns: repeat(2, minmax(150px, 350px));
+        grid-template-rows: repeat(6, max-content);
         gap: 16px;
     }
 }
@@ -32,10 +53,9 @@
 @media screen and (max-width: 320px) {
     .photo-grid {
         margin: 64px auto 0;
-        width: calc(100% - 32px);
-        height: 2724px;
+        max-width: calc(100% - 32px);
+        max-height: 2724px;
         grid-template-columns: 288px;
-        grid-template-rows: repeat(12, 216px);
+        grid-template-rows: repeat(12, max-content);
         gap: 12px;
     }
-}

@@ -6,28 +6,28 @@
     margin: 0 28px 0 0;
     grid-column: 2;
     grid-row: 1;
-    width: 456px;
+    max-width: 456px;
     height: 46px;
     /* border: 1px solid rgb(255, 255, 255); */
 }
 
 @media screen and (max-width: 1024px) {
     .website {
-        width: 456px;
+        max-width: 456px;
         margin: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .website {
-        width: 352px;
+        max-width: 352px;
         margin: 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .website {
-        width: 288px;
+        max-width: 288px;
         margin: 0 16px 0 16px;
         grid-column: 1;
         grid-row: 2;
