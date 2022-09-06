@@ -1,6 +1,6 @@
 .paragraths__paragrath {
     max-width: 484px;
-    max-height: 460px;
+    max-height: 468px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -38,11 +38,9 @@
     }
 }
 
-
-
 @media screen and (max-width: 320px) {
     .paragraths__paragrath {
         max-width: 288px;
-        margin: 0 16px 0 16px;
+        margin: 0;
     }
 }

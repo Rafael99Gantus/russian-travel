@@ -12,6 +12,10 @@
     color: #FFFFFF;
 }
 
+.website__link:hover{
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 1024px) {
     .website__link {
         max-width: 456px;

@@ -59,4 +59,4 @@
 
 /*links*/
 @import url(../blocks/links/links.css);
-@import url(../blocks/links/links__link.css);
+@import url(../blocks/links/__link/links__link.css);
