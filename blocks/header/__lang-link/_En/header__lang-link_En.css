@@ -1,10 +1,10 @@
-.header__lang-link-En {
+.header__lang-link_En {
     text-decoration: none;
     grid-column: 4;
     margin: 18px 0 6px;
     max-width: 29px;
-    max-height: 28px;
-    font-family: 'Inter';
+    min-height: 20px;
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -14,15 +14,10 @@
 }
 
 @media screen and (max-width: 320px) {
-    .header__lang-link-En {
+    .header__lang-link_En {
         max-width: 22px;
-        max-height: 20px;
         margin: 14px 0 8px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
         font-size: 18px;
         line-height: 111%;
-        text-align: right;
     }
 }

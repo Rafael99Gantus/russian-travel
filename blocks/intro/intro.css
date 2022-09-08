@@ -2,7 +2,7 @@
     margin-top: 92px;
     margin-left: 148px;
     max-width: 690px;
-    max-height: 429px;
+    min-height: 329px;
     /* border: 1px solid red; */
 }
 
@@ -22,14 +22,13 @@
 @media screen and (max-width: 720px) {
     .intro {
         max-width: 100%;
-        margin: 110px auto 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
         max-width: calc(100% - 32px);
-        max-height: 754px;
+        min-height: 654px;
         margin-top: 86px;
     }
 }

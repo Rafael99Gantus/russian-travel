@@ -3,7 +3,7 @@
     justify-content: space-between;
     margin: 0 auto 0;
     width: calc(100% - 96px);
-    max-height: 18px;
+    min-height: 16px;
     /* border: 1px solid white; */
 }
 
@@ -16,8 +16,8 @@
 @media screen and (max-width: 578px) {
     .footer {
         flex-direction: column;
-        width: 186px;
-        max-height: 450px;
+        max-width: 186px;
+        min-height: 350px;
         margin: 0 118px 0 16px;
     }
 }
@@ -25,8 +25,7 @@
 @media screen and (max-width: 320px) {
     .footer {
         flex-direction: column;
-        width: 186px;
-        max-height: 310px;
+        min-height: 210px;
         margin: 0 118px 0 16px;
     }
 }

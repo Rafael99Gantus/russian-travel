@@ -1,14 +1,13 @@
 .places {
     margin: 92px auto 0;
     max-width: 984px;
-    max-height: 3392px;
+    min-height: 2702px;
     /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 1024px) {
     .places {
         max-width: calc(100% - 96px);
-        max-height: 3292px;
     }
 }
 
@@ -16,7 +15,6 @@
     .places {
         align-self: center;
         max-width: calc(100% - 48px);
-        max-height: 2784px;
         margin: 88px auto 0;
     }
 }
@@ -24,7 +22,6 @@
 @media screen and (max-width: 767px) {
     .places {
         max-width: 100%;
-        max-height: 5153px;
         margin: 64px auto 0;
     }
 }
