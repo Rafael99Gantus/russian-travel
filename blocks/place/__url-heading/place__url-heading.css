@@ -12,13 +12,13 @@
     color: #AAAAAA;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .place__url-heading {
         max-width: 352px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__url-heading {
         max-width: 288px;
     }

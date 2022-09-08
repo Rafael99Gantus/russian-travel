@@ -11,13 +11,13 @@
     /* border: 1px solid rgb(255, 255, 255); */
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
     .website {
         margin: 0;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .website {
         max-width: 352px;
     }

@@ -16,18 +16,6 @@
     }
 }
 
-@media screen and (max-width: 720px) {
-    .intro__title {
-        font-size: 46px;
-    }
-}
-
-@media screen and (max-width: 619px) {
-    .intro__title {
-        font-size: 32px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .intro__title {
         max-width: 288px;

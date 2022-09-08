@@ -16,13 +16,13 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .place__link {
         max-width: 352px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__link {
         max-width: 288px;
     }

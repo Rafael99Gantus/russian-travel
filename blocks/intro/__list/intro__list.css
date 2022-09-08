@@ -1,4 +1,6 @@
 .intro__list {
+    display: flex;
+    flex-direction: column;
     max-width: 690px;
     min-height: 80px;
     margin: 0;
@@ -18,8 +20,8 @@
     }
 }
 
-@media screen and (max-width: 720px) {
-    .intro__text {
+@media screen and (max-width: 320px) {
+    .intro__list {
         font-size: 10px;
     }
 }
