@@ -5,10 +5,23 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122%;
     text-align: center;
     color: #FFFFFF;
     z-index: 2;
+}
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 114%;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -17,6 +30,6 @@
         max-height: 48px;
         margin: 0 auto 33px;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 114%;
     }
 }
