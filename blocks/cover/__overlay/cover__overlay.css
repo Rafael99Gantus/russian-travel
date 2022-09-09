@@ -8,11 +8,11 @@
     min-height: 740px;
     background: #2A2C2F;
     opacity: 0.3;
+    transition: opacity 1s linear;
 }
 
 .cover__overlay:hover {
     opacity: 0.8;
-    transition: 1s linear;
 }
 
 @media screen and (max-width: 1024px) {
