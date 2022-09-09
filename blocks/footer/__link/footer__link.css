@@ -1,5 +1,4 @@
 .footer__link {
-    min-height: 16px;
     margin-right: 18px;
     text-decoration: none;
     font-family: 'Inter', serif;
@@ -14,9 +13,12 @@
     margin-right: 0;
 }
 
+.footer__link:hover{
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 768px) {
     .footer__link {
-        font-size: 14px;
         margin-bottom: 32px;
     }
 }

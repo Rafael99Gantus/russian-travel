@@ -1,7 +1,6 @@
 .lead__title {
     margin: 0 auto 32px;
-    min-width: 720px;
-    min-height: 88px;
+    max-width: 720px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 900;
@@ -10,19 +9,6 @@
     text-align: center;
     color: #FFFFFF;
     /* border: solid 1px rgb(251, 0, 255); */
-}
-
-@media screen and (max-width: 1024px) {
-    .lead__title {
-        min-width: calc(100% - 208px);
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .lead__title {
-        max-width: 100%;
-        font-size: 75px;
-    }
 }
 
 @media screen and (max-width: 700px) {

@@ -1,6 +1,5 @@
-.paragraths__paragrath {
+.place__paragrath {
     max-width: 484px;
-    min-height: 168px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -10,29 +9,29 @@
     /* border: 1px solid rgb(0, 242, 93); */
 }
 
-.paragraths__paragrath:nth-child(2) {
+.place__paragrath:nth-child(2) {
     margin-top: 26px;
 }
 
 @media screen and (max-width: 1100px) {
-    .paragraths__paragrath {
+    .place__paragrath {
         max-width: 456px;
     }
 }
 
 @media screen and (max-width: 950px) {
-    .paragraths__paragrath {
+    .place__paragrath {
         max-width: 352px;
         font-size: 16px;
     }
 
-    .paragraths__paragrath:nth-child(2) {
+    .place__paragrath:nth-child(2) {
         margin-top: 25px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .paragraths__paragrath {
+    .place__paragrath {
         max-width: 288px;
         margin: 0;
     }

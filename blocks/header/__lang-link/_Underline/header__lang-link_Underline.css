@@ -1,0 +1,5 @@
+.header__lang-link_Underline {
+    text-decoration: underline;
+    grid-column: 3/4;
+    max-width: 30px;
+}

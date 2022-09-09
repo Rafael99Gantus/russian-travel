@@ -1,7 +1,6 @@
 .lead {
     margin: auto;
     width: calc(100% - 296px);
-    min-height: 406px;
     /*border:1px solid rgb(249, 0, 0);*/
 }
 
@@ -11,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .lead {
         width: 100%;
     }
