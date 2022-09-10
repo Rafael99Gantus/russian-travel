@@ -8,3 +8,6 @@
 - Разработка интерфейса для разных устройств;
 - Ознакомление с GitHub;
 - Работа с PixelPerfect.
+
+
+Ссылка на проект: rafael99gantus.github.io/russian-travel/
