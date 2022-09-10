@@ -1,6 +1,5 @@
 .header__lang-link {
     margin: 18px 0 6px;
-    grid-column: 4;
     max-width: 29px;
     text-decoration: none;
     font-family: 'Inter', serif;
@@ -10,6 +9,10 @@
     line-height: 117%;
     text-align: right;
     color: #FFFFFF;
+}
+
+.header__lang-link:nth-child(2){
+    margin: 18px 0 6px 18px;
 }
 
 .header__lang-link:hover{
