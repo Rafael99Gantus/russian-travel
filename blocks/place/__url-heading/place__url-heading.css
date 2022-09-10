@@ -1,5 +1,6 @@
 .place__url-heading {
     max-width: 456px;
+    margin: 0;
     list-style-type: none;
     text-transform: uppercase;
     font-family: 'Inter', serif;
