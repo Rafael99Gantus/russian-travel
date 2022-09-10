@@ -1,5 +1,13 @@
-.header__lang-link_Underline {
+.header__lang-link_underline {
     /* text-decoration: underline; */
     grid-column: 3/4;
     max-width: 30px;
+}
+
+.header__lang-link_underline:active{
+    text-decoration: underline;
+}
+
+.header__lang-link_underline:focus{
+    text-decoration: underline;
 }

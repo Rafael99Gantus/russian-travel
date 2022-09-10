@@ -12,15 +12,11 @@
     color: #FFFFFF;
 }
 
-.header__lang-link:active{
-    text-decoration: underline;
+.header__lang-link:hover{
+    opacity: 0.8;
 }
 
-.header__lang-link:focus{
-    text-decoration: underline;
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .header__lang-link {
         max-width: 22px;
         margin: 14px 0 8px;

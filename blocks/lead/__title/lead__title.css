@@ -17,10 +17,10 @@
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
     .lead__title {
         margin: 0 16px 16px;
         max-width: calc(100% - 32px);
-        line-height: 125%;
+        line-height: 110%;
     }
 }
