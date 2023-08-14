@@ -9,5 +9,4 @@
 - Ознакомление с GitHub;
 - Работа с PixelPerfect.
 
-
-Ссылка на проект: rafael99gantus.github.io/russian-travel/
+* [Ссылка на GitHub проект](rafael99gantus.github.io/russian-travel/)
